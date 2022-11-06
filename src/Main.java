@@ -33,6 +33,14 @@ public class Main {
         byte b = 67;
         System.out.println(b);
 
+        int LudPal = 23;
+        int AnSer = 27;
+        int EkAn = 30;
+        int TotalNum = LudPal + AnSer + EkAn;
+        int sheetsOfPaper = 480;
+        int SheetsOneStud = sheetsOfPaper / TotalNum;
+        System.out.println("На каждого ученика рассчитано " + SheetsOneStud + " листов бумаги");
+
 
 
 
