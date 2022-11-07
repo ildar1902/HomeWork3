@@ -68,8 +68,8 @@ public class Main {
         System.out.println("В школе, где " + NumberOfClasses + " классов, нужно " + TotalCansOfWhitePaint + " банок белой краски и " + TotalCansOfBrownPaint + " банок коричневой краски");
 
         int Bananas = 5;
-        int WeightOneBanan = 80;
-        int TotalWeightOfBananas = WeightOneBanan * Bananas;
+        int WeightOneBanana = 80;
+        int TotalWeightOfBananas = WeightOneBanana * Bananas;
         int MilkMl = 200;
         int Weight100MlOfMilk = 105;
         double TotalWeightOfMilk = Weight100MlOfMilk / 100.0 * MilkMl;
@@ -83,7 +83,14 @@ public class Main {
         double BreakFastWeightInKilograms = BreakfastWeightInGrams / 1000.0;
         System.out.println("Вес спорт-завтрака в граммах - " + BreakfastWeightInGrams + " граммов, а в килограммах - " + BreakFastWeightInKilograms + " кг");
 
-
+        int NeedToResetInKg = 7;
+        int NeedToResetInGr = NeedToResetInKg * 1000;
+        int DaysOfDietForWeightLoss250gPerDay = NeedToResetInGr / 250;
+        int DaysOfDietForWeightLoss500gPerDay = NeedToResetInGr / 500;
+        int AverageValue = (DaysOfDietForWeightLoss500gPerDay + DaysOfDietForWeightLoss250gPerDay) / 2;
+        System.out.println("Если спортсмен будет терять каждый день по 250г, то на похудение уйдет " + DaysOfDietForWeightLoss250gPerDay + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по 500г, то на похудение уйдет " + DaysOfDietForWeightLoss500gPerDay + " дней");
+        System.out.println("В среднем, чтобы добиться результата похудения, может потребоваться " + AverageValue + " день");
 
 
 
