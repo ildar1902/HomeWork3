@@ -92,6 +92,26 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500г, то на похудение уйдет " + DaysOfDietForWeightLoss500gPerDay + " дней");
         System.out.println("В среднем, чтобы добиться результата похудения, может потребоваться " + AverageValue + " день");
 
+       int MashasSalaryPerMonth = 67760;
+       int MashasAnnualSalary = MashasSalaryPerMonth * 12;
+       float MashasIncreasedSalaryPerMonth = MashasSalaryPerMonth * 1.1f;
+       float MashasIncreasedAnnualSalary = MashasAnnualSalary * 1.1f;
+       double MashasDifference = MashasIncreasedAnnualSalary % MashasAnnualSalary;
+        System.out.println("Маша теперь получает " + MashasIncreasedSalaryPerMonth + " рублей в месяц. Годовой доход вырос на " + MashasDifference + " рублей");
+
+       int DenissMonthlySalary = 83690;
+       int DenissAnnualSalary = DenissMonthlySalary * 12;
+       float DenissInreasedMonthlySalary = DenissMonthlySalary * 1.1f;
+       float DenissIncreasedAnnualSalary = DenissAnnualSalary * 1.1f;
+       double DenissDifference = DenissIncreasedAnnualSalary % DenissAnnualSalary;
+        System.out.println("Денис теперь получает " + DenissInreasedMonthlySalary + " рублей в месяц. Годовой доход вырос на " + DenissDifference + " рублей");
+       int KristinasMonthlySalary = 76230;
+       int KristinasAnnualSalary = KristinasMonthlySalary * 12;
+       float KristinasIncreasedMonthlySalary = KristinasMonthlySalary * 1.1f;
+       float KristinasIncreasedAnnualSalary = KristinasAnnualSalary * 1.1f;
+       double KristinasDifference = KristinasIncreasedAnnualSalary % KristinasAnnualSalary;
+        System.out.println("Кристина теперь получает " + KristinasIncreasedMonthlySalary + " рублей в месяц. Годовой доход вырос на " + KristinasDifference + " рублей");
+
 
 
     }
