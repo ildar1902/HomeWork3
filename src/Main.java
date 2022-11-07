@@ -57,6 +57,17 @@ public class Main {
         int x4 = NumBottlesInOneMin * a4;
         System.out.println("За месяц машина произвела " + x4 + " бутылок");
 
+        int TotalNumberOfCans = 120;
+        int WhitePaintForOneClass = 2;
+        int BrownPaintForOneClass = 4;
+        int TotalPaintForOneClass = WhitePaintForOneClass + BrownPaintForOneClass;
+        int NumberOfClasses = TotalNumberOfCans / TotalPaintForOneClass;
+        System.out.println("Количество классов в школе - " + NumberOfClasses);
+        int TotalCansOfWhitePaint = WhitePaintForOneClass * NumberOfClasses;
+        int TotalCansOfBrownPaint = BrownPaintForOneClass * NumberOfClasses;
+        System.out.println("В школе, где " + NumberOfClasses + " классов, нужно " + TotalCansOfWhitePaint + " банок белой краски и " + TotalCansOfBrownPaint + " банок коричневой краски");
+
+
 
     }
 }
