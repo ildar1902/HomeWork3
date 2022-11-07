@@ -41,7 +41,21 @@ public class Main {
         int SheetsOneStud = sheetsOfPaper / TotalNum;
         System.out.println("На каждого ученика рассчитано " + SheetsOneStud + " листов бумаги");
 
-
+        int BottlesInTwoMin = 16;
+        int TwoMin = 2;
+        int NumBottlesInOneMin = BottlesInTwoMin / TwoMin;
+        int a1 = 20;
+        int x1 = NumBottlesInOneMin * a1;
+        System.out.println("За " + a1 + " минут машина произвела " + x1 + " бутылок!");
+        int a2 = TwoMin / 2 * 60 * 24;
+        int x2 = NumBottlesInOneMin * a2;
+        System.out.println("За сутки машина произвела " + x2 + " бутылок");
+        int a3 = a2 * 3;
+        int x3 = NumBottlesInOneMin * a3;
+        System.out.println("За 3 дня машина произвела " + x3 + " бутылок");
+        int a4 = a2 * 30;
+        int x4 = NumBottlesInOneMin * a4;
+        System.out.println("За месяц машина произвела " + x4 + " бутылок");
 
 
     }
